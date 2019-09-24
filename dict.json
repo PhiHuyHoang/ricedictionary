@@ -1,40 +1,52 @@
 ﻿{
     "quotes": [
 	{	
-		"Rice": "(•⊙ω⊙•)"
+		"said" : "Rice",
+		"mean" : "(•⊙ω⊙•)"
 	},
 	{
-		"I love you": "You are my slave, bitch"
+		"said" : "I love you",
+		"mean" : "You are my slave, bitch"
 	},
         {
-                "I'll be ready in five minutes": "I have yet to shower; I just got out of the shower and haven't touched my hair yet; I can't get my eyeliner wings even; I've tried on four separate outfits and hate every single one of them"
+                "said" : "I'll be ready in five minutes",
+		"mean" : "I have yet to shower; I just got out of the shower and haven't touched my hair yet; I can't get my eyeliner wings even; I've tried on four separate outfits and hate every single one of them"
         },
 	{
-                "Do I look fat": " I have been cheating on my diet for the past four days and now it's the weekend and I need you to tell me I look good"
+                "said" : "Do I look fat",
+		"mean" : " I have been cheating on my diet for the past four days and now it's the weekend and I need you to tell me I look good"
         },
         {
-                "I don't even like him": "I am absolutely head-over-heels in love with him, but am trying to play it cool"
+                "said" : "I don't even like him",
+		"mean" : "I am absolutely head-over-heels in love with him, but am trying to play it cool"
         },
 	{
-                "How do you know her": "What is your sexual history with that girl you just said Hi to?"
+                "said" : "How do you know her",
+		"mean" : "What is your sexual history with that girl you just said Hi to?"
         },
         {
-                "I don't even want a boyfriend": " I am so single it hurts, but currently have no guy situation on my radar whatsoever"
+                "said" : "I don't even want a boyfriend",
+		"mean" : " I am so single it hurts, but currently have no guy situation on my radar whatsoever"
         },
 	{
-                "I'm not hungry": "I'm f*cking starving and haven't eaten anything substantial in over 10 days"
+                "said" : "I'm not hungry",
+		"mean" : "I'm f*cking starving and haven't eaten anything substantial in over 10 days"
         },
         {
-                "I barely ate anything today": "I ate my weight in tortilla chips, chocolate, goldfish and basically anything and everything I could've gotten my hands on today"
+                "said" : "I barely ate anything today",
+		"mean" : "I ate my weight in tortilla chips, chocolate, goldfish and basically anything and everything I could've gotten my hands on today"
         },
 	{
-                "I'm only having one drink": "I'm getting sh*t faced and won't remember my own name by the end of the night"
+                "said" : "I'm only having one drink",
+		"mean" : "I'm getting sh*t faced and won't remember my own name by the end of the night"
         },
 	{
-                "He's my friend": "We had sex once, it was terrible, so I put him back in the friend zone"
+                "said" : "He's my friend",
+		"mean" : "We had sex once, it was terrible, so I put him back in the friend zone"
         },
 	{
-                "It's whatever, I'm over it": "I am far from over it and have been cyber-stalking him every day since we stopped speaking"
+                "said" : "It's whatever, I'm over it",
+		"mean" : "I am far from over it and have been cyber-stalking him every day since we stopped speaking"
         }
    ]
 }

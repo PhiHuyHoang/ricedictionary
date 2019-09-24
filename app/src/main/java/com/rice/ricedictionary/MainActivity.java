@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         protected Void doInBackground(Void... arg0) {
             HttpHandler sh = new HttpHandler();
             // Making a request to url and getting response
-            String url = "https://api.androidhive.info/contacts/";
+            String url = "https://raw.githubusercontent.com/PhiHuyHoang/ricedictionary/master/dict.json";
             String jsonStr = sh.makeServiceCall(url);
 
             Log.e(TAG, "Response from url: " + jsonStr);
@@ -58,13 +58,13 @@ public class MainActivity extends AppCompatActivity {
                     JSONObject jsonObj = new JSONObject(jsonStr);
 
                     // Getting JSON Array node
-                    JSONArray contacts = jsonObj.getJSONArray("contacts");
+                    JSONArray contacts = jsonObj.getJSONArray("quotes");
 
                     // looping through All Contacts
                     for (int i = 0; i < contacts.length(); i++) {
                         JSONObject c = contacts.getJSONObject(i);
-                        String id = c.getString("id");
-                        String name = c.getString("name");
+                        String said = c.getString("id");
+                        String mean = c.getString("name");
                         String email = c.getString("email");
                         String address = c.getString("address");
                         String gender = c.getString("gender");
