@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">RiceDictionary</string>
+    <string name="app_label">What does she mean?</string>
+    <string name="copyright">Rice give advice - must be nice"</string>
 </resources>

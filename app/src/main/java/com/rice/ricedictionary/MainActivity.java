@@ -63,26 +63,14 @@ public class MainActivity extends AppCompatActivity {
                     // looping through All Contacts
                     for (int i = 0; i < contacts.length(); i++) {
                         JSONObject c = contacts.getJSONObject(i);
-                        String said = c.getString("id");
-                        String mean = c.getString("name");
-                        String email = c.getString("email");
-                        String address = c.getString("address");
-                        String gender = c.getString("gender");
+                        String said = c.getString("said");
+                        String mean = c.getString("mean");
 
-                        // Phone node is JSON Object
-                        JSONObject phone = c.getJSONObject("phone");
-                        String mobile = phone.getString("mobile");
-                        String home = phone.getString("home");
-                        String office = phone.getString("office");
-
-                        // tmp hash map for single contact
                         HashMap<String, String> contact = new HashMap<>();
 
                         // adding each child node to HashMap key => value
-                        contact.put("id", id);
-                        contact.put("name", name);
-                        contact.put("email", email);
-                        contact.put("mobile", mobile);
+                        contact.put("said", said);
+                        contact.put("mean", mean);
 
                         // adding contact to contact list
                         contactList.add(contact);
@@ -141,12 +129,20 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable s) {
                 String result = question.getText().toString();
-                if(result.equals("hello")) {
-                    answer.setText(contactList.get(0).get("id"));
+                int index = 0;
+                for(HashMap<String, String> entry : contactList)
+                {
+                    if(entry.get("said").equals(result))
+                    {
+                        index = contactList.indexOf(entry);
+                    }
+                }
+                if(index != 0) {
+                    answer.setText(contactList.get(index).get("mean"));
                 }
                 else
                 {
-                    answer.setText("I don't understand that bitch!");
+                    answer.setText(contactList.get(0).get("mean"));
                 }
             }
         });

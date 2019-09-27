@@ -1,8 +1,12 @@
 ﻿{
     "quotes": [
+        {
+                "said" : "",
+                "mean" : "(•⊙ω⊙•)"
+        },
 	{	
 		"said" : "Rice",
-		"mean" : "(•⊙ω⊙•)"
+		"mean" : "Best daddy"
 	},
 	{
 		"said" : "I love you",
@@ -17,7 +21,7 @@
 		"mean" : " I have been cheating on my diet for the past four days and now it's the weekend and I need you to tell me I look good"
         },
         {
-                "said" : "I don't even like him",
+                "said" : "I don't like him",
 		"mean" : "I am absolutely head-over-heels in love with him, but am trying to play it cool"
         },
 	{
@@ -25,7 +29,7 @@
 		"mean" : "What is your sexual history with that girl you just said Hi to?"
         },
         {
-                "said" : "I don't even want a boyfriend",
+                "said" : "I don't want a boyfriend",
 		"mean" : " I am so single it hurts, but currently have no guy situation on my radar whatsoever"
         },
 	{
@@ -47,6 +51,35 @@
 	{
                 "said" : "It's whatever, I'm over it",
 		"mean" : "I am far from over it and have been cyber-stalking him every day since we stopped speaking"
+        },
+        {
+                "said" : "It's fine",
+                "mean" : "I would appreciate if we could have a long conversation about this, no shorter than 45 minutes. If not, I would appreciate if you got the fuck out of here."
+        },
+        {
+                "said" : "I just want a nice guy",
+                "mean" : "I just want a hot guy with a great personality who is financially stable AND if he can make me laugh, that’d be great."
+        },
+        {
+                "said" : "I just want a nice guy",
+                "mean" : "I just want a hot guy with a great personality who is financially stable AND if he can make me laugh, that’d be great."
+        },
+        {
+                "said" : "I like you, but",
+                "mean" : "I do not like you"
+        },
+        {
+                "said"  : "Do you think he's cute",
+                "mean"  : "Do you think it's ok if I have sex with him?"
+        },
+        {
+                "said": "I want to take it slow",
+                "mean": "I want to do a fuckboy test with you"
+        },
+        {
+                "said": "I don’t know why girls don’t like me",
+                "mean": "I’m a bitch to girls and I know exactly why they don’t like me but I want to seem cool, you know?"
         }
+
    ]
 }
