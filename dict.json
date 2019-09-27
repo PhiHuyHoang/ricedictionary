@@ -61,10 +61,6 @@
                 "mean" : "I just want a hot guy with a great personality who is financially stable AND if he can make me laugh, that’d be great."
         },
         {
-                "said" : "I just want a nice guy",
-                "mean" : "I just want a hot guy with a great personality who is financially stable AND if he can make me laugh, that’d be great."
-        },
-        {
                 "said" : "I like you, but",
                 "mean" : "I do not like you"
         },
@@ -79,6 +75,10 @@
         {
                 "said": "I don’t know why girls don’t like me",
                 "mean": "I’m a bitch to girls and I know exactly why they don’t like me but I want to seem cool, you know?"
+        },
+        {
+                "said": "Do you love me",
+                "mean": "Prove your love by doing this for me, bitch"
         }
 
    ]
